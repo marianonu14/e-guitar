@@ -34,10 +34,10 @@ export default function Home() {
           <CardSection img={AcousticImg} title={'Atkin Acoustic - Cod. 12345'} price={'290.00'} />
           <CardSection img={ElextricImg} title={'Koa Electric - Cod. 12345'} price={'720.00'} />
         </section>
-        <section className='bg-slate-800 p-10 shadow-xl'>
+        <section className='bg-slate-300 p-10 shadow-xl'>
           <div>
-            <h2 className='font-bold text-3xl mb-5 text-cyan-600'>Why Chose Us</h2>
-            <p className='text-gray-300 mb-5 md:w-1/3'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor.</p>
+            <h2 className='font-bold text-3xl mb-5 text-slate-900'>Why Chose Us</h2>
+            <p className='text-gray-700 mb-5 md:w-1/3'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor.</p>
           </div>
           <div className='md:flex justify-evenly gap-5'>
             <CardUs img={WhyUsImg2} title={'Free Shipping'} />

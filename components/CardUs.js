@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CardUs = (props) => {
     return ( 
-        <div className="bg-white grid gap-5 p-5 mb-5 md:m-0 rounded-xl h-full">
+        <div className="grid gap-5 p-5 mb-5 md:m-0 rounded-xl h-full">
             <Image 
             src={props.img} 
             alt='Guitar Image' 

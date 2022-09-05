@@ -1,7 +1,10 @@
+
+
 const Categories = () => {
     return ( 
-        <div>
-            <h1>Aca estan todas las categorias</h1>
+        <div className="md:h-screen">
+            <h1 className="text-4xl p-10">Categories</h1>
+
         </div>
      );
 }
