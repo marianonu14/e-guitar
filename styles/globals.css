@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@layer base {
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+        font-family: 'Inter', sans-serif;
+      }
+    
+    html{
+     @apply box-border
+    }
+
+    body{
+      @apply bg-[#ecf0f3] box-border
+    }
+
+    .btn {
+        @apply uppercase rounded-md px-5 py-2 bg-cyan-700 text-white hover:bg-white hover:text-cyan-700 duration-500 ease-linear border-2 border-cyan-700
+    }
+  }
+
