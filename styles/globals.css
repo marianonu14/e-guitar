@@ -18,10 +18,21 @@
     body{
       @apply bg-[#ecf0f3] box-border
     }
+    
+    input {
+      @apply p-3 rounded-lg focus:outline-none
+    }
+    textarea {
+      @apply p-4 rounded-xl text-lg resize-none focus:outline-none h-20
+    }
+    label {
+      @apply text-slate-900 text-lg
+    }
 
     .btn {
         @apply uppercase rounded-md px-5 py-2 bg-cyan-600 text-white hover:bg-white hover:text-cyan-600 duration-500 ease-linear border-2 border-cyan-700
     }
   }
+
 
 

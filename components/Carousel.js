@@ -1,14 +1,14 @@
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import CarouselCard from './CarouselCard';
+import CardCarousel from './CardCarousel';
 
 const CarouselSection = () => {
     return ( 
         <Carousel>
-            <CarouselCard />
-            <CarouselCard />
-            <CarouselCard />
+            <CardCarousel />
+            <CardCarousel />
+            <CardCarousel />
         </Carousel>
      );
 }
