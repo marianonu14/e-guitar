@@ -5,17 +5,14 @@ import Hero from '../components/Hero'
 import CardSection from '../components/CardSection'
 import CardUs from '../components/CardUs'
 
-import BanjoImg from '../public/bass_1.jpg'
-import AcousticImg from '../public/acoustic_1.jpg'
-import ElextricImg from '../public/electric_1.jpg'
+import BanjoImg from '../public/bass_1.png'
+import AcousticImg from '../public/acoustic_1.png'
+import ElextricImg from '../public/electric_1.png'
 import WhyUsImg1 from '../public/whyus_1.png'
 import WhyUsImg2 from '../public/whyus_2.png'
 import WhyUsImg3 from '../public/whyus_3.png'
 import WhyUsImg4 from '../public/whyus_4.png'
-
-
-
-
+import Carousel from '../components/Carousel'
 
 export default function Home() {
   return (
@@ -29,33 +26,32 @@ export default function Home() {
         <Hero />
         <section className='lg:flex lg:justify-evenly items-center gap-5 p-10 '>
           <div className='lg:w-1/4 p-10'>
-            <h2 className='font-bold text-xl mb-5 text-gray-900'>The Best Guitars For Newcomers to Pro Players</h2>
-            <p className='text-gray-700 mb-5'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+            <h2 className='font-bold text-3xl mb-5 text-slate-900'>The Best Guitars For Newcomers to Pro Players</h2>
+            <p className='text-slate-600 mb-5'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
             <Link href="/categories"><button className='btn'>Explore</button></Link>
           </div>
-          <CardSection img={BanjoImg} title={'Bass'} price={'500'} />
-          <CardSection img={AcousticImg} title={'Acoustic'} price={'200'} />
-          <CardSection img={ElextricImg} title={'Electric'} price={'700'} />
+          <CardSection img={BanjoImg} title={'Realtik Bass - Cod. 12345'} price={'500.00'} />
+          <CardSection img={AcousticImg} title={'Atkin Acoustic - Cod. 12345'} price={'290.00'} />
+          <CardSection img={ElextricImg} title={'Koa Electric - Cod. 12345'} price={'720.00'} />
         </section>
-        <section className='bg-slate-800 p-10'>
-          <div className=''>
+        <section className='bg-slate-800 p-10 shadow-xl'>
+          <div>
             <h2 className='font-bold text-3xl mb-5 text-cyan-600'>Why Chose Us</h2>
-            <p className='text-gray-300 mb-5'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+            <p className='text-gray-300 mb-5 md:w-1/3'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
           </div>
-          <div className='md:flex justify-evenly'>
-            <CardUs img={WhyUsImg1} title={'Free Shipping'} />
-            <CardUs img={WhyUsImg2} title={'Easy to Shop'} />
+          <div className='md:flex justify-evenly gap-5'>
+            <CardUs img={WhyUsImg2} title={'Free Shipping'} />
+            <CardUs img={WhyUsImg1} title={'Easy to Shop'} />
             <CardUs img={WhyUsImg3} title={'24/7 Support'} />
             <CardUs img={WhyUsImg4} title={'Hassle FreeReturns'} />
           </div>
         </section>
         <section className='p-5'>
-          <div className='lg:w-1/4 p-10'>
-            <h2 className='font-bold text-xl mb-5 text-gray-900'>The Best Guitars For Newcomers to Pro Players</h2>
-            <p className='text-gray-700 mb-5'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+          <div>
+              <h2 className='font-bold text-3xl text-center mt-10 text-slate-900'>Testimonials</h2>
           </div>
+          <Carousel />
         </section>
-
       </main>
     </>
   )

@@ -20,7 +20,8 @@
     }
 
     .btn {
-        @apply uppercase rounded-md px-5 py-2 bg-cyan-700 text-white hover:bg-white hover:text-cyan-700 duration-500 ease-linear border-2 border-cyan-700
+        @apply uppercase rounded-md px-5 py-2 bg-cyan-600 text-white hover:bg-white hover:text-cyan-600 duration-500 ease-linear border-2 border-cyan-700
     }
   }
+
 
