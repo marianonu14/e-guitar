@@ -11,7 +11,7 @@ const ProductCard = (props) => {
     return ( 
         <div className="flex flex-col md:flex-row gap-10 justify-between items-center bg-slate-700 mb-5 p-5 rounded-2xl shadow-xl">
             <div className="bg-white flex rounded-2xl overflow-hidden">
-                <Image src={`/../public/${image}`} alt='Product Image' width={250} height={250} objectFit='contain' objectPosition='center'  />
+                <Image src={`../public/${image}`} alt='Product Image' width={250} height={250} objectFit='contain' objectPosition='center'  />
             </div>
             <div className="flex flex-col gap-5">
                 <h1 className="text-white text-xl">{name}</h1>
