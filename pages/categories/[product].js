@@ -6,7 +6,7 @@ const Product = () => {
     console.log(router.pathname);
     return ( 
         <div>
-            <h1>Categoria Producto {router.query.product}</h1>
+            <h1 className="text-2xl md:text-5xl p-14">Categories - {router.query.product}</h1>
         </div>
      );
 }

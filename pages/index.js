@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Hero from '../components/Hero'
 import CardSection from '../components/CardSection'
 import CardUs from '../components/CardUs'
+import Carousel from '../components/Carousel'
 
 import BanjoImg from '../public/bass_1.png'
 import AcousticImg from '../public/acoustic_1.png'
@@ -12,7 +13,6 @@ import WhyUsImg1 from '../public/whyus_1.png'
 import WhyUsImg2 from '../public/whyus_2.png'
 import WhyUsImg3 from '../public/whyus_3.png'
 import WhyUsImg4 from '../public/whyus_4.png'
-import Carousel from '../components/Carousel'
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
         </section>
         <section className='bg-slate-300 p-10 shadow-xl'>
           <div>
-            <h2 className='font-bold text-3xl mb-5 text-slate-900'>Why Chose Us</h2>
+            <h2 className='font-bold text-3xl mb-5 text-slate-900'>Why Choose Us</h2>
             <p className='text-gray-700 mb-5 md:w-1/3'>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor.</p>
           </div>
           <div className='md:flex justify-evenly gap-5'>
