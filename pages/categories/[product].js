@@ -21,8 +21,8 @@ const Product = () => {
     return ( 
         <>
             <h1 className="text-2xl md:text-5xl p-14">Category - {titleCategory}</h1>
-            <div className='mx-10 m-auto'>
-                {data && data.map(elem => <ProductCard key={elem.id} name={elem.nameProduct} price={elem.price} />)}
+            <div className='w-3/4 m-auto'>
+                {data && data.map(elem => <ProductCard key={elem.id} name={elem.nameProduct} price={elem.price} image={elem.img} />)}
             </div>
         </>
      );
