@@ -5,8 +5,8 @@ import ImgAbout from "../public/aboutus.jpg"
 const AboutUs = () => {
     return ( 
         <div>
-            <h1 className="text-2xl md:text-5xl p-14">About Us</h1>
-            <div className="lg:flex justify-evenly px-10 mb-10 gap-8">
+            <h1 className="text-2xl md:text-5xl md:p-14 px-6 pt-6">About Us</h1>
+            <div className="lg:flex justify-evenly m-6 mb-14 gap-8">
                 <div className="imgabout grid overflow-hidden mb-10 md:w-3/4 lg:w-1/3 m-auto">
                     <Image 
                     src={ImgAbout} 
