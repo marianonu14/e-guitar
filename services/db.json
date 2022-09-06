@@ -1,0 +1,134 @@
+{
+"electric": [
+    {
+        "id": 1,
+        "nameProduct": "Guitar Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 2,
+        "nameProduct": "Guitar Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 3,
+        "nameProduct": "Guitar Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 4,
+        "nameProduct": "Guitar Electric - Mod. 123456",
+        "price": 234
+    }
+], 
+"bass": [
+    {
+        "id": 1,
+        "nameProduct": "Bass - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 2,
+        "nameProduct": "Bass - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 3,
+        "nameProduct": "Bass - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 4,
+        "nameProduct": "Bass - Mod. 123456",
+        "price": 234
+    }
+],
+"acoustic": [
+    {
+        "id": 1,
+        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 2,
+        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 3,
+        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 4,
+        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "price": 234
+    }
+], 
+"pedals": [
+    {
+        "id": 1,
+        "nameProduct": "Pedals - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 2,
+        "nameProduct": "Pedals - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 3,
+        "nameProduct": "Pedals - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 4,
+        "nameProduct": "Pedals - Mod. 123456",
+        "price": 234
+    }
+], 
+"accessories": [
+    {
+        "id": 1,
+        "nameProduct": "Accesories - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 2,
+        "nameProduct": "Accesories - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 3,
+        "nameProduct": "Accesories - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 4,
+        "nameProduct": "Accesories - Mod. 123456",
+        "price": 234
+    }
+], 
+"amps": [
+    {
+        "id": 1,
+        "nameProduct": "Amp Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 2,
+        "nameProduct": "Amp Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 3,
+        "nameProduct": "Amp Electric - Mod. 123456",
+        "price": 234
+    },
+    {
+        "id": 4,
+        "nameProduct": "Amp Electric - Mod. 123456",
+        "price": 234
+    }
+]
+}

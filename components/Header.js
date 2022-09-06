@@ -13,9 +13,9 @@ const Header = () => {
 
     return ( 
         <header>
-          <nav className="flex justify-between bg-slate-900 text-white px-10 py-5">
+          <nav className="flex justify-between bg-slate-900 text-white text-lg px-10 py-5">
             <Link href="/">Logo</Link>
-            <ul className="flex gap-10">
+            <ul className="flex gap-14">
                 <li className={route === '/categories' ? 'text-cyan-600' : 'hover:text-cyan-600'}>
                     <Link href="/categories">Categories</Link>
                 </li>

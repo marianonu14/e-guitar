@@ -17,7 +17,7 @@ const Categories = () => {
                 <CategoriesCard img={AcousticImg} id={'acoustic'} name={'Acoustic Guitar'}/>
                 <CategoriesCard img={PedalsImg} id={'pedals'} name={'Pedals'}/>
                 <CategoriesCard img={AccImg} id={'accessories'} name={'Accessories'}/>
-                <CategoriesCard img={AmpImg} id={'amp'} name={'Amps'}/>
+                <CategoriesCard img={AmpImg} id={'amps'} name={'Amps'}/>
             </div>
         </>
      );
