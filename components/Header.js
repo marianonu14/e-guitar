@@ -15,10 +15,6 @@ const Header = () => {
     const router = useRouter();
     const route = router.pathname;
 
-    const showCart = () => {
-        console.log('Show Cart');
-    }
-
     const handleNav = () => {
         setNavState(!navState);
     }
@@ -42,9 +38,11 @@ const Header = () => {
                     <Link href="/contact">Contact</Link>
                 </li>
             </ul>
-            <button className="hidden md:inline" onClick={showCart}>
-                <BsCart2 size={25} />
-            </button>
+            <Link href="/cart">                            
+                <button className="hidden md:inline">
+                    <BsCart2 size={25} />
+                </button>
+            </Link>
             <button className="md:hidden cursor-pointer" onClick={handleNav}>
                 <AiOutlineMenu size={25}/>
             </button>
@@ -78,9 +76,11 @@ const Header = () => {
                             <Link href="/contact">Contact</Link>
                         </li>
                         <li>
+                        <Link href="/cart">                            
                             <button className="flex gap-5 items-center hover:text-cyan-600" onClick={() => {setNavState(false)}}>
-                                Show Cart <BsCart2 size={25} />
+                                    Show Cart <BsCart2 size={25} />
                             </button>
+                        </Link>
                         </li>
                     </ul>
                 </div>
