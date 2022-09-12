@@ -5,13 +5,25 @@ import { BsCartPlus } from 'react-icons/bs';
 
 
 const ProductCard = (props) => {
-    const {image, name, price, id} = props
+    const {image, name, price} = props
 
-    const item = {name, price, image}
+    const item = {name, price, image, quantity: 1}
     
-    const {addCart} = useCart()
+    const {addCart, cart} = useCart()
     
-    const addToCart = (e) => {
+    const addToCart = () => {
+        const validation = cart.some(elem => item.name === elem.name);
+        
+        if(validation){
+            const find = cart.find(elem => item.name === elem.name);
+            const filter = cart.filter(elem => item.name !== elem.name)
+
+            find.quantity++
+            
+            const newItem = [...filter, find]
+            return
+        }
+
         addCart(item)
     }
 
