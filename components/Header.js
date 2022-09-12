@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useCart } from "../context/cartContext";
 
 import LogoImg from "../public/logo.png"
 
@@ -12,6 +13,8 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const Header = () => {
     const [navState , setNavState] = useState(false); 
+    const {cart} = useCart()
+
     const router = useRouter();
     const route = router.pathname;
 
@@ -39,8 +42,9 @@ const Header = () => {
                 </li>
             </ul>
             <Link href="/cart">                            
-                <button className="hidden md:inline">
+                <button className="hidden md:flex items-center gap-5">
                     <BsCart2 size={25} />
+                    <span className="bg-slate-700 px-3 rounded-full text-cyan-500">{cart.length}</span>
                 </button>
             </Link>
             <button className="md:hidden cursor-pointer" onClick={handleNav}>

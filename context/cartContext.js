@@ -11,5 +11,9 @@ export const CartProvider = ({children}) => {
         setCart([...cart, item])
     }
 
-    return <CartContext.Provider value={{cart , addCart}}>{children}</CartContext.Provider>
+    const deleteCart = (newArray) => {
+        setCart(newArray)
+    }
+
+    return <CartContext.Provider value={{cart , addCart, deleteCart}}>{children}</CartContext.Provider>
 }
