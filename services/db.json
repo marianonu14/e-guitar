@@ -2,25 +2,25 @@
 "electric": [
     {
         "id": 1,
-        "nameProduct": "Guitar Electric - Mod. 123456",
+        "nameProduct": "Guitar Electric - Mod. 973123",
         "price": 869.20,
         "img": "electric_1.png"
     },
     {
         "id": 2,
-        "nameProduct": "Guitar Electric - Mod. 123456",
+        "nameProduct": "Guitar Electric - Mod. 345355",
         "price": 699.90,
         "img": "electric_2.jpg"
     },
     {
         "id": 3,
-        "nameProduct": "Guitar Electric - Mod. 123456",
+        "nameProduct": "Guitar Electric - Mod. 324678",
         "price": 738.20,
         "img": "electric_3.jpg"
     },
     {
         "id": 4,
-        "nameProduct": "Guitar Electric - Mod. 123456",
+        "nameProduct": "Guitar Electric - Mod. 676342",
         "price": 650.00,
         "img": "electric_4.jpg"
     }
@@ -28,25 +28,25 @@
 "bass": [
     {
         "id": 1,
-        "nameProduct": "Bass - Mod. 123456",
+        "nameProduct": "Bass - Mod. 454231",
         "price": 234.00,
         "img": "bass_1.png"
     },
     {
         "id": 2,
-        "nameProduct": "Bass - Mod. 123456",
+        "nameProduct": "Bass - Mod. 656665",
         "price": 234.00,
         "img": "bass_2.jpg"
     },
     {
         "id": 3,
-        "nameProduct": "Bass - Mod. 123456",
+        "nameProduct": "Bass - Mod. 146656",
         "price": 234.00,
         "img": "bass_3.jpg"
     },
     {
         "id": 4,
-        "nameProduct": "Bass - Mod. 123456",
+        "nameProduct": "Bass - Mod. 645644",
         "price": 234.00,
         "img": "bass_4.jpg"
     }
@@ -54,25 +54,25 @@
 "acoustic": [
     {
         "id": 1,
-        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "nameProduct": "Acoustic Electric - Mod. 335677",
         "price": 234.00,
         "img": "acoustic_1.png"
     },
     {
         "id": 2,
-        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "nameProduct": "Acoustic Electric - Mod. 676544",
         "price": 234.00,
         "img": "acoustic_2.jpg"
     },
     {
         "id": 3,
-        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "nameProduct": "Acoustic Electric - Mod. 343244",
         "price": 234.00,
         "img": "acoustic_3.jpg"
     },
     {
         "id": 4,
-        "nameProduct": "Acoustic Electric - Mod. 123456",
+        "nameProduct": "Acoustic Electric - Mod. 435353",
         "price": 234.00,
         "img": "acoustic_4.jpg"
     }
@@ -80,25 +80,25 @@
 "pedals": [
     {
         "id": 1,
-        "nameProduct": "Pedals - Mod. 123456",
+        "nameProduct": "Pedals - Mod. 877666",
         "price": 234.00,
         "img": "pedal_1.jpg"
     },
     {
         "id": 2,
-        "nameProduct": "Pedals - Mod. 123456",
+        "nameProduct": "Pedals - Mod. 676767",
         "price": 234.00,
         "img": "pedal_2.webp"
     },
     {
         "id": 3,
-        "nameProduct": "Pedals - Mod. 123456",
+        "nameProduct": "Pedals - Mod. 314456",
         "price": 234.00,
         "img": "pedal_3.webp"
     },
     {
         "id": 4,
-        "nameProduct": "Pedals - Mod. 123456",
+        "nameProduct": "Pedals - Mod. 896554",
         "price": 234.00,
         "img": "pedal_4.webp"
     }
@@ -106,25 +106,25 @@
 "accessories": [
     {
         "id": 1,
-        "nameProduct": "Accesories - Mod. 123456",
+        "nameProduct": "Accesories - Mod. 343456",
         "price": 234.00,
         "img": "acc_1.webp"
     },
     {
         "id": 2,
-        "nameProduct": "Accesories - Mod. 123456",
+        "nameProduct": "Accesories - Mod. 767544",
         "price": 234.00,
         "img": "acc_2.webp"
     },
     {
         "id": 3,
-        "nameProduct": "Accesories - Mod. 123456",
+        "nameProduct": "Accesories - Mod. 454656",
         "price": 234.00,
         "img": "acc_3.webp"
     },
     {
         "id": 4,
-        "nameProduct": "Accesories - Mod. 123456",
+        "nameProduct": "Accesories - Mod. 787875",
         "price": 234.00,
         "img": "acc_4.webp"
     }
@@ -132,25 +132,25 @@
 "amps": [
     {
         "id": 1,
-        "nameProduct": "Amp Electric - Mod. 123456",
+        "nameProduct": "Amp Electric - Mod. 564566",
         "price": 234.00,
         "img": "amp_1.jpg"
     },
     {
         "id": 2,
-        "nameProduct": "Amp Electric - Mod. 123456",
+        "nameProduct": "Amp Electric - Mod. 454555",
         "price": 234.00,
         "img": "amp_2.jpg"
     },
     {
         "id": 3,
-        "nameProduct": "Amp Electric - Mod. 123456",
+        "nameProduct": "Amp Electric - Mod. 676764",
         "price": 234.00,
         "img": "amp_3.jpg"
     },
     {
         "id": 4,
-        "nameProduct": "Amp Electric - Mod. 123456",
+        "nameProduct": "Amp Electric - Mod. 454567",
         "price": 234.00,
         "img": "amp_4.jpg"
     }

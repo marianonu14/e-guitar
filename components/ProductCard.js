@@ -1,13 +1,18 @@
 import Image from "next/image";
+import { useCart } from "../context/cartContext"
 
 import { BsCartPlus } from 'react-icons/bs';
 
 
 const ProductCard = (props) => {
-    const {image, name, price} = props 
+    const {image, name, price, id} = props
 
+    const item = {name, price, image}
+    
+    const {addCart} = useCart()
+    
     const addToCart = (e) => {
-        console.log(e.target.value)
+        addCart(item)
     }
 
     return ( 
@@ -20,7 +25,7 @@ const ProductCard = (props) => {
                 <p className="text-white text-xl"><span className="text-cyan-600">Price -</span> USD {price.toFixed(2)}</p>
                 <p className="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fuga id adipisci nisi officia impedit dolorum, quia accusantium voluptatibus</p>
             </div>
-            <button onClick={addToCart} value={price} className="btn flex justify-center w-full md:w-1/3 bg-slate-900 rounded-xl text-white gap-3">
+            <button onClick={addToCart} className="btn flex justify-center w-full md:w-1/3 bg-slate-900 rounded-xl text-white gap-3">
                 Add to Cart<BsCartPlus size={20} />
             </button>
         </div>

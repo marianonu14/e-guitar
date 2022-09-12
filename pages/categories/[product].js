@@ -14,9 +14,8 @@ const Product = () => {
 
     let titleCategory = '';
 
-    if(router.query.product){
-        titleCategory = router.query.product.charAt(0).toUpperCase() + router.query.product.slice(1)
-    }
+    if(router.query.product) titleCategory = router.query.product.charAt(0).toUpperCase() + router.query.product.slice(1)
+    
 
     return ( 
         <>
