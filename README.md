@@ -13,9 +13,11 @@ Personal Project - E-Guitar, e-commerce of musical instruments such as electric 
 To install all the packages:
 
 - npm install
+
 In the project directory, you can run:
 
 - npm dev
+
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
