@@ -24,6 +24,6 @@ You will also see any lint errors in the console.
 
 ## Demo 
 
-https://blogger-app-seven.vercel.app/
+https://e-guitar.vercel.app/
 
 ![Project App](https://github.com/marianonu14/e-guitar/blob/main/public/eguitarreadme.png?raw=true)
