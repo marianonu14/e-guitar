@@ -1,6 +1,6 @@
-# Blogger - APP
+# E-Guitar - APP
 
-Personal Project - The Blogger App, allows you publish posts to your blog wherever you are
+Personal Project - E-Guitar, e-commerce of musical instruments such as electric guitars, basses and accessories
 
 ## Technologies
 
@@ -15,7 +15,7 @@ To install all the packages:
 - npm install
 In the project directory, you can run:
 
-- npm start
+- npm dev
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
@@ -26,4 +26,4 @@ You will also see any lint errors in the console.
 
 https://blogger-app-seven.vercel.app/
 
-![Project App](https://github.com/marianonu14/Blogger-App/blob/main/src/assets/bloggerappreadme.png?raw=true)
+![Project App](https://github.com/marianonu14/e-guitar/blob/main/public/eguitarreadme.png?raw=true)
